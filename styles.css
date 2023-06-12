@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+ul{
+    padding-left: 15px;
+}
+.purple-container li,.dark-grey-container li,.black-container li{
+    list-style: none;
+    color: white;
+}
+.white-container li, .small-white-container li{
+    list-style: none;
+    color: black;
+}
+.Graduate{
+    opacity: 0.5;
+    font-size: 16px;
+}
+li.full-name{
+    font-size: 22px;
+    font-weight: 400;
+}
+.main-content{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    
+}
+.review{
+    color: white;
+    font-weight: 400;
+    opacity: 0.6;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+}
+.white-container .review , .small-white-container .review{
+    color: black;;
+}
+.main-container{
+    width: 1500px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.upper-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    height: 400px;
+    width: 100%;
+}
+.lower-section{
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+.purple-container{
+    background-color:  hsl(263, 55%, 52%);
+    width: 600px;
+    padding: 25px;
+    box-shadow: 9px 9px 10px -5px rgba(0,0,0,0.66);
+    border-radius: 8px;
+}
+.img-wste{
+    display: flex;
+}
+.dark-grey-container{
+    background-color:  hsl(217, 19%, 35%);
+    width: 300px;
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 0;
+    box-shadow: 9px 9px 10px -5px rgba(0,0,0,0.66);
+    border-radius: 8px;
+}
+.white-container{
+    box-shadow: 9px 9px 10px -5px rgba(0,0,0,0.66);
+    width: 300px;
+    padding: 25px;
+    padding-top: 18px;
+    border-radius: 8px;
+    height: 600px;
+    background-color: azure;
+}
+.small-white-container{
+    width: 350px;
+    height: 360px;
+    padding: 25px;
+    padding-top: 20px;
+    box-shadow: 9px 9px 10px -5px rgba(0,0,0,0.66);
+    border-radius: 8px;
+    background-color: azure;
+}
+.white-content{
+    color: black;
+    padding: 10px;
+}
+.white-content{
+    color: black;
+    padding: 10px;
+    font-size: 600;
+}
+.black-container{
+    background-color:  hsl(219, 29%, 14%);
+    width: 600px;
+    padding: 25px;
+    box-shadow: 9px 9px 10px -5px rgba(0,0,0,0.66);
+    border-radius: 8px;
+}
+.spl-chr{
+    color: white;
+    font-size: 500px;
+    position: absolute;
+    top: -650px;
+    left: 400px;
+    opacity: 0.3;
+}
+img{
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 0;
+}
